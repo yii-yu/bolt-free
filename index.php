@@ -85,40 +85,27 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
                             <div class="modal fade" id="modalRegistration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <form action="index.php" method="post">
-                                            <div class="modal-body">
 
+                                        <div class="modal-body" style="color:#000">
+                                            <form id="form_reg" method="post">
                                                 <div class="form-group">
                                                     <label for="inputEmail1">Email</label>
-                                                    <input type="email" name="email" class="form-control" id="inputEmail1" placeholder="Enter email">
+                                                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                                                    <div id="save_error" style="color: red;font-size: 12px"></div>
                                                 </div>
 
+                                                <input id="btn_submit" type="submit" class="btn btn-primary" value="Зарегистрироваться">
+                                            </form>
+
+
+                                            <div id="save_success">
+
                                             </div>
-                                            <div class="modal-footer">                                            
-                                                <input type="submit" class="btn btn-primary" value="Зарегистрироваться">
-                                            </div>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-
-                            <?php if ($email): ?>
-                                <div class="modal fade"  tabindex="-1" role="dialog"  aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-
-                                            <div class="modal-body">
-
-
-
-                                            </div>
-
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endif; ?>
                         </div>
                         <div class="social mt-4">
                             <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
