@@ -1,12 +1,5 @@
-﻿<?php
-$email = false;
-if (isset($_POST['email']) && !empty($_POST['email'])) {
-    $email = $_POST['email'];
-}
-?>
-<html lang="en" style="
-      height: 100%;
-      "><head>
+<html lang="en" style=" height: 100%;">
+    <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -137,22 +130,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
         <script src="assets/js/jquery.nav.js"></script>
         <script src="assets/js/jquery.easing.min.js"></script> 
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/site.js"></script>
 
-
-        <script type="text/javascript">
-            $("#example").vegas({
-                timer: false,
-                delay: 6000,
-                transitionDuration: 2000,
-                transition: "blur",
-                slides: [
-                    {src: "assets/img/slide1.jpg"},
-                    {src: "assets/img/slide2.jpg"},
-                    {src: "assets/img/slide3.jpg"}
-                ]
-            });
-        </script>
 
 
 

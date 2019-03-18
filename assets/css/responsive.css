@@ -62,8 +62,8 @@
     font-size: 26px;
   }
   .time-countdown .time-entry {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   .time-countdown .time-entry span {
     font-size: 30px;
@@ -87,14 +87,14 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .time-countdown .time-entry {
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
   }
   .time-countdown .time-entry span {
-    font-size: 30px;
+    font-size: 24px;
   }
   .subscribe-form .form-inline .btn {
-    width: 125px;
+    width: 100px;
   }
   .btn {
     padding: 8px 10px;
