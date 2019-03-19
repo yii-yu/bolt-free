@@ -10,7 +10,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Bolt - Coming Soon Template</title>
+        <title>IQeon</title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -37,15 +37,9 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <li>|</li>
                 <li id="btn_lang_ru" class="<?= $lang == 'ru' ? 'active' : '' ?>">ru</li>
             </ul>
-        </div>
-
-        <!-- Coundown Section Start -->
-        <section class="countdown-timer" style="/* height: 100%; */"> 
-            <div class="container" style="
-                 /* background: url(https://iqeon.com/images/desctop2.png); */
-                 /* background-size: contain; */
-                 /* background-repeat: no-repeat; */
-                 ">
+        </div>      
+        <section class="countdown-timer"> 
+            <div class="container" style="">
                 <div class="row text-center">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="heading-count">
@@ -96,15 +90,11 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                                                                font-size: 20px;
                                                                font-weight: bold;
                                                                margin: 5px 10px;
-                                                               "><?= 1000 - $countBonus; ?></span><?= translate('bonuses') ?></p><div class="button-group" style="
-                            /* border-radius: 50%; */
-                                                                                               ">
+                                                               "><?= 1000 - $countBonus; ?></span><?= translate('bonuses') ?></p><div class="button-group">
                             <a href="#" class="btn btn-common" data-toggle="modal" data-target="#modalRegistration" style="background-color: #dc3545; display: inline-block;font-family: rubik, sans-serif;font-size: 14px;font-weight: 700;line-height: 58px;padding: 0 25px;color: #fff;border: 1px solid transparent;border-radius: 30px;text-decoration: none;-webkit-transition: all .25s;transition: all .25s;text-align: center;position: relative;-webkit-box-shadow: 0 7px 18px 2px rgba(254, 100, 129, .4);box-shadow: 0 7px 18px 2px rgba(254, 100, 129, .4);width: 250px;"><?= translate('get_your_bonus_now') ?></a>
-
                             <div class="modal fade" id="modalRegistration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                                         
                                         </div>
@@ -158,15 +148,11 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             <br><br>
 
         </section>
-        <!-- Coundown Section End -->
-
-        <!-- Preloader -->
+ 
         <div id="preloader" style="display: none;">
             <div class="loader" id="loader-1"></div>
         </div>
-        <!-- End Preloader -->
-
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
         <script src="assets/js/jquery-min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
