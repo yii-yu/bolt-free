@@ -18,16 +18,16 @@
         });
 
 
-
         /* ==========================================================================
          countdown timer
          ========================================================================== */
         jQuery('#clock').countdown('2019/03/26', function (event) {
+            var lang = $('html').attr('lang');
             var $this = jQuery(this).html(event.strftime(''
-                    + '<div class="time-entry days"><span>%-D</span> Days</div> '
-                    + '<div class="time-entry hours"><span>%H</span> Hours</div> '
-                    + '<div class="time-entry minutes"><span>%M</span> Minutes</div> '
-                    + '<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
+                    + '<div class="time-entry days"><span>%-D</span> ' + (lang == "en" ? "Days" : "Дней") + '</div> '
+                    + '<div class="time-entry hours"><span>%H</span> ' + (lang == "en" ? "Hours" : "Часов") + '</div> '
+                    + '<div class="time-entry minutes"><span>%M</span>' + (lang == "en" ? "Minutes" : "Минут") + '</div> '
+                    + '<div class="time-entry seconds"><span>%S</span>' + (lang == "en" ? "Seconds" : "Секунд") + '</div> '));
         });
 
 
@@ -93,7 +93,7 @@
     });
     $("#btn_close_modal_confirm").click(function () {
         setTimeout(function () {
-            location.href='https://iqeon.com';
+            location.href = 'https://iqeon.com';
         }, 100);
     });
 
