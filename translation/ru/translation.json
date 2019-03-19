@@ -1,0 +1,26 @@
+{
+    "days": "Дней",
+    "bonus": "бонус",
+    "Starting IQeon": "Запуск IQeon",
+    "take_part_in_the_open_beta": "Примите участие в Открытом Бета Тестировании игровой PvP платформы IQeon",
+    "become_one_of_thousands": "Станьте одним из 1000 первых игроков, которые гарантированно получат",
+    "remain only": "Осталось всего",
+    "bonuses": "бонусов",
+    "get_your_bonus_now": "получить бонус сейчас",
+    "interested_in_beta-testing": "Интересует бета-тестирование",
+    "fill_in_the_e-mail_to_participate_in_beta_testing": "Заполните e-mail для участия в бета-тестировании",
+    "enter_your_email": "Введите ваш Email",
+    "sign_up": "Зарегистрироваться",
+    "your_email_has_been_successfully_verified": "Ваша электронная почта успешно проверена",
+    "email field is required": "поле Email обязательно для заполнения",
+    "you entered an incorrect e-mail": "введен некорректный e-mail",
+    "thanks for registering": "Спасибо за регистрацию!",
+    "a message with a link to activate your account has been sent to your e-mail": "На указанную вами почту отправлено сообщение с ссылкой для активации вашего аккаунта",
+    "already registered in the system": "уже зарегистрирован в системе",
+    "error writing to file": "Ошибка записи в файл",
+    "register with iqeon": "Регистрация в IQeon",
+    "to complete the registration and receive the bonus, click on the link": "Для завершения регистрации и получения бонуса перейдите по ссылке",
+    "to complete the registration": "завершить регистрацию",
+    "error when sending message to mail": "ошибка при отправке почты"
+
+}

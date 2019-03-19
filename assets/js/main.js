@@ -83,4 +83,31 @@
 
         return false;
     });
+
+    $("#btn_lang_en").click(function () {
+        changeLang('en');
+    });
+
+    $("#btn_lang_ru").click(function () {
+        changeLang('ru');
+    });
+    $("#btn_close_modal_confirm").click(function () {
+        setTimeout(function () {
+            location.href='https://iqeon.com';
+        }, 100);
+    });
+
+    function changeLang(lang) {
+        var data = {lang: lang};
+
+        $.post("action/setlang.php", data)
+                .done(function (result) {
+
+                });
+        setTimeout(function () {
+            location.reload();
+        }, 100);
+    }
+
+
 }(jQuery));
