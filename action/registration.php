@@ -132,14 +132,15 @@ class Registration {
             </head>
             <body>
               <p>' . $this->translate("to complete the registration and receive the bonus, click on the link") . '</p>  
-              <a href="' . self::BASE_URL_HREF . '?token=' . $this->token . '" target="_blank">https://iqeon.com?token=' . $this->token . '</a>
+              <a href="' . self::BASE_URL_HREF . '?lang='.$this->lang.'&token=' . $this->token . '" target="_blank">https://iqeon.com?lang='.$this->lang.'&token=' . $this->token . '</a>
             </body>
             </html>
             ';
 
-        $mailheaders = "Content-type:text/html;charset=windows-1251rn";
+//        $mailheaders = "Content-type:text/html;charset=windows-1251rn";
+        $mailheaders = "Content-type:text/html;charset=charset=UTF-8;";
         $mailheaders .= "From: Robot <" . self::EMAIL_FROM . ">";
-        $mailheaders .= "Reply-To: ".self::EMAIL_FROM;
+//        $mailheaders .= "Reply-To: ".self::EMAIL_FROM;
 
         if (!mail($to, $subject, $message, $mailheaders)) {
             $this->error = $this->translate('error when sending message to mail');

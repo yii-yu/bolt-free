@@ -18,14 +18,14 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
         <title><?= $lang == "ru" ? "Платформа IQeon - Открытая Бета" : " IQeon Platform - Open Beta" ?>IQeon</title>
 
         <!-- Google Tag Manager -->
         <script>(function (w, d, s, l, i) {
                 w[l] = w[l] || [];
-                w[l].push({'gtm.start':
-                            new Date().getTime(), event: 'gtm.js'});
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
                 var f = d.getElementsByTagName(s)[0],
                         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
                 j.async = true;
@@ -63,7 +63,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <div class="flex-box">
 
             <div class="timer-header">
-                <img src="assets/img/rocket.png">
+                <img src="assets/img/rocket.svg">
+
                 <h2><?= translate('Starting IQeon') ?></h2>
                 <div class="label-open-beta">open beta</div>
             </div>

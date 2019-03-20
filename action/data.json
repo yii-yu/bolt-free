@@ -1,1 +1,38 @@
-[{"email":"fgfg@mail.ru","ip":"127.0.0.1","date":"2019-03-19 10:16:19","token":"M2hlM2JmdFpoZmJmXzE1NTI5Nzk3Nzk=","verified":true},{"email":"hhh@gg.ru","ip":"127.0.0.1","date":"2019-03-19 10:27:32","token":"dDJzZEJZNUZRNHNmXzE1NTI5ODA0NTI=","verified":true},{"email":"jfjfj@mail.ru","ip":"127.0.0.1","date":"2019-03-19 10:42:22","token":"N0JidDNLMmVSODZyXzE1NTI5ODEzNDI=","verified":true},{"email":"lipinski.yury@gmail.com","ip":"127.0.0.1","date":"2019-03-19 14:56:40","token":"Wk56N0FHekFCM2trXzE1NTI5OTY2MDA=","verified":false},{"email":"daywork2@gmail.com","ip":"127.0.0.1","date":"2019-03-19 16:54:42","token":"cjdFS3lSRVpoM2U0XzE1NTMwMDM2ODI=","verified":true},{"email":"add@mm.dd","ip":"127.0.0.1","date":"2019-03-20 12:28:28","token":"ZVozYlluczV5UTliXzE1NTMwNzQxMDg=","verified":false}]
+[
+    {
+        "email": "fgfg@mail.ru",
+        "ip": "127.0.0.1",
+        "date": "2019-03-19 10:16:19",
+        "token": "M2hlM2JmdFpoZmJmXzE1NTI5Nzk3Nzk=",
+        "verified": true
+    }, {
+        "email": "hhh@gg.ru",
+        "ip": "127.0.0.1",
+        "date": "2019-03-19 10:27:32",
+        "token": "dDJzZEJZNUZRNHNmXzE1NTI5ODA0NTI=",
+        "verified": true
+    }, {
+        "email": "jfjfj@mail.ru",
+        "ip": "127.0.0.1",
+        "date": "2019-03-19 10:42:22",
+        "token": "N0JidDNLMmVSODZyXzE1NTI5ODEzNDI=",
+        "verified": true
+    }, {
+        "email": "lipinski.yury@gmail.com",
+        "ip": "127.0.0.1",
+        "date": "2019-03-19 14:56:40",
+        "token": "Wk56N0FHekFCM2trXzE1NTI5OTY2MDA=",
+        "verified": false
+    }, {
+        "email": "daywork2@gmail.com",
+        "ip": "127.0.0.1",
+        "date": "2019-03-19 16:54:42",
+        "token": "cjdFS3lSRVpoM2U0XzE1NTMwMDM2ODI=",
+        "verified": true
+    }, {
+        "email": "add@mm.dd",
+        "ip": "127.0.0.1",
+        "date": "2019-03-20 12:28:28",
+        "token": "ZVozYlluczV5UTliXzE1NTMwNzQxMDg=",
+        "verified": false
+    }]
