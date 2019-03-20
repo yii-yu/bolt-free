@@ -2,10 +2,10 @@
 
     "days": "Days",
     "bonus": "bonus",
-    "Starting IQeon": "Starting IQeon",
+    "Starting IQeon": "Launching IQeon",
     "take_part_in_the_open_beta": "Take part in Open Beta Testing PvP platform IQeon",
-    "become_one_of_thousands": "Become one of the 1000 first players who are guaranteed to receive",
-    "remain only": "Remain only",
+    "become_one_of_thousands": "Become one of the 10 000 first players who are guaranteed to receive IQN",
+    "remain only": "Bonuses remaining",
     "bonuses": "bonuses",
     "get_your_bonus_now": "get your bonus now",
     "interested_in_beta-testing": "Interested in beta-testing?",
@@ -20,7 +20,7 @@
     "already registered in the system": "already registered in the system",
     "error writing to file": "Error writing to file",
     "register with iqeon": "Register with iqeon",
-    "to complete the registration and receive the bonus, click on the link": "To complete the registration and receive the bonus, click on the link",
+    "to complete the registration and receive the bonus, click on the link": "To confirm your email and receive the bonus in the future, click on the link",
     "to complete the registration": "to complete the registration",
     "error when sending message to mail": "error when sending message to mail"
 }

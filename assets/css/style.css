@@ -1,0 +1,312 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    overflow-x: hidden;
+}
+body{
+    background: url(/assets/img/bg.svg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rubik','Open Sans', sans-serif;
+    font-size: 18px;
+    color:#fff;
+    overflow: hidden;
+}
+p{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    font-size: 18px;
+    color:#fff;
+}
+
+.modal .modal-header{
+    border-bottom: none;
+    justify-content: flex-end;
+}
+.modal .modal-header button{
+    height: 40px;
+    width: 40px;
+    border: 1px solid#ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.modal{
+    color:#475166;
+    font-family: 'Rubik','Open Sans', sans-serif;
+}
+.modal .modal-content{
+    border-radius: 15px;
+}
+.modal-body{
+    text-align: center;
+    font-family: 'Rubik','Open Sans', sans-serif;
+}
+.modal-body .form-control{
+    height: 50px;
+}
+.modal .modal-body h2{
+    color: #475166 !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+}
+.modal .modal-body h3{
+    color: #475166 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    padding-top: 10px !important;
+    margin: 10px 0;
+}
+.modal .modal-body>.verified-text h3{
+    color: #475166 !important;
+    font-size: 18px !important;
+    padding-top: 10px !important;
+    margin-bottom: 60px;    
+}
+
+.modal .modal-body h4{   
+    font-size: 22px;
+}
+.modal .modal-body p{   
+    font-size: 16px;
+    margin: 50px auto;
+    color: #475166;
+    width: calc(100% - 80px);
+}
+.modal .modal-body form{
+    margin-top: 20px;
+}
+.modal .modal-body form #inputEmail{
+    border-radius: 30px;
+    width: calc(100% - 90px);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.modal .modal-body form #btn_submit{
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    margin: 20px 50px;
+    padding: 20px;
+    font-weight: bold;
+
+    background-color: #fe6b40;
+    background: -webkit-gradient(linear, left top, right top, from(#e71470), to(#fe6b40));
+    background: linear-gradient(to right, #e71470, #fe6b40);
+    opacity: 1;
+    border:none;
+}
+
+.modal .modal-body form #btn_submit:hover{
+    background-color: #fe6b40;
+    background: -webkit-gradient(linear, left top, right top, from(#e71470), to(#fe6b40));
+    background: linear-gradient(to right, #c31461, #f94f1d);
+}
+
+.lang-bar{
+    position: fixed;
+    right: 20px;
+    top:0;
+}
+.lang-bar ul{
+    text-align: right;
+    list-style: none;
+}
+.lang-bar ul li{
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+}
+.lang-bar ul li.active{
+    /*font-size: 18px;*/
+    text-decoration: underline;
+}
+.lang-bar ul li:hover{
+    text-decoration: underline;
+}
+.flex-box{
+    display: flex;
+    flex-flow: column wrap;  
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;    
+}
+.flex-box>div{
+    width: 100%;
+    text-align: center;
+}
+.timer-header img{
+    margin-bottom: 30px;
+}
+.timer-header h2{
+    font-size: 64px;
+    font-weight: bold;
+}
+.timer-header .label-open-beta{
+    color:#DD4F61;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-color: #fff;
+    width: 118px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.time-count{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-count .time-entry span{
+    font-size: 120px;
+    display: block;
+    width: 140px;
+}
+.time-count .time-entry:first-child{  
+    width: 110px;
+}
+.time-count .divider{
+    font-size: 60px;
+    padding: 20px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.time-count .signature{
+    font-size: 16px;
+    margin-top: -30px;
+}
+/*.time-count:first-child .signature{
+   width: 50px;
+}*/
+.count-bonus #count_bonus {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+.count-bonus span{
+    font-size: 18px;
+}
+.btn-common{
+    background-color: #dc3545; 
+    display: inline-block;
+    color:#fff;    
+    font-weight: 500;
+    line-height: 58px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-box-shadow: 0 7px 18px 2px rgba(254, 100, 129, .4);
+    box-shadow: 0 7px 18px 2px rgba(254, 100, 129, .4);width: 250px;
+}
+.btn-common:hover{
+    color:#fff; 
+    background-color: #f15b6a;
+}
+.btn{
+    cursor:pointer;
+}
+
+.social a {
+    display: inline-block;
+    color: #4d8bc0;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+.social .facebook:hover {
+    color: #3B5998;
+}
+
+.social .twitter:hover {
+    color: #00aced;
+}
+
+.social .instagram:hover {
+    color: #fb3958;
+}
+
+.social .foursqare:hover {
+    color: #25a0ca;
+}
+
+.social .google:hover {
+    color: #d34836;
+}
+
+
+
+.social li a:hover .lni-facebook-filled {
+    background: #3B5998;
+}
+
+.social li a:hover .lni-twitter-filled {
+    background: #00aced;
+}
+
+.social li a:hover .lni-instagram-filled {
+    background: #fb3958;
+}
+
+.button-group{
+    margin-top: -20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .timer-header h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 14spx;
+    }
+    .time-count .time-entry span{
+        font-size: 50px;
+        width: 60px;
+    }
+
+    .time-count .time-entry:first-child{  
+        width: 50px;
+    }
+    .time-count .divider{
+        font-size: 40px;
+        padding: 2px;      
+    }
+    .time-count .signature{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+}

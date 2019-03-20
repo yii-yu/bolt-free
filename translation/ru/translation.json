@@ -3,8 +3,8 @@
     "bonus": "бонус",
     "Starting IQeon": "Запуск IQeon",
     "take_part_in_the_open_beta": "Примите участие в Открытом Бета Тестировании игровой PvP платформы IQeon",
-    "become_one_of_thousands": "Станьте одним из 1000 первых игроков, которые гарантированно получат",
-    "remain only": "Осталось всего",
+    "become_one_of_thousands": "Станьте одним из 10 000 первых игроков, которые гарантированно получат IQN",
+    "remain only": "Осталось бонусов",
     "bonuses": "бонусов",
     "get_your_bonus_now": "получить бонус сейчас",
     "interested_in_beta-testing": "Интересует бета-тестирование",
@@ -19,7 +19,7 @@
     "already registered in the system": "уже зарегистрирован в системе",
     "error writing to file": "Ошибка записи в файл",
     "register with iqeon": "Регистрация в IQeon",
-    "to complete the registration and receive the bonus, click on the link": "Для завершения регистрации и получения бонуса перейдите по ссылке",
+    "to complete the registration and receive the bonus, click on the link": "Для подтверждения вашего email-а и получения бонуса в дальнейшем перейдите по ссылке",
     "to complete the registration": "завершить регистрацию",
     "error when sending message to mail": "ошибка при отправке почты"
 

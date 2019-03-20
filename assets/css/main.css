@@ -1,12 +1,16 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
 @font-face{
-
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 html {
     overflow-x: hidden;
@@ -16,7 +20,7 @@ body {
     background: #fff;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Roboto','Open Sans', sans-serif;
+    font-family: 'Rubik','Open Sans', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -639,11 +643,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .countdown-timer {
     color: #fff;
-    position: absolute;
+    /*position: absolute;*/
     margin: 0 auto;
-    top: 28%;
+    /*top: 28%;*/
     text-align: center;
     width: 100%;
+    display: flex;
 }
 
 .countdown-timer .heading-count {
@@ -652,9 +657,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .countdown-timer .heading-count h2 {
-    font-size: 42px;
+    font-size: 64px;
+    font-family: 'Rubik';
     color: #fff;
-    line-height: 30px;
     margin-bottom: 15px;
 }
 
@@ -1402,4 +1407,17 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 .lang-bar ul li:hover{
     text-decoration: underline;
+}
+
+.iqeon-timer .label-open-beta{
+
+}
+.iqeon-timer .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.iqeon-timer .flex-box section{
+    
 }

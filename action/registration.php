@@ -7,7 +7,7 @@ $reg = new Registration();
 class Registration {
 
     const FILE = 'data.json';
-    const EMAIL_FROM = 'noreply@iqeon.com ';
+    const EMAIL_FROM = 'noreply@iqeon.com';
     const EMAIL_NOTIFICATION = 'support@iqeon.com';
     const BASE_URL_HREF = 'https://iqeon.com';
 
@@ -132,7 +132,7 @@ class Registration {
             </head>
             <body>
               <p>' . $this->translate("to complete the registration and receive the bonus, click on the link") . '</p>  
-              <a href="' . self::BASE_URL_HREF . '?token=' . $this->token . '" target="_blank">' . $this->translate("to complete the registration") . '</a>
+              <a href="' . self::BASE_URL_HREF . '?token=' . $this->token . '" target="_blank">https://iqeon.com?token=' . $this->token . '</a>
             </body>
             </html>
             ';
